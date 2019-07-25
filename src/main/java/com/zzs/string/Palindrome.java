@@ -9,10 +9,10 @@ import java.util.HashSet;
  注 意:假设字符串的长度不会超过 1010。
  *
  */
-public class PhraseString {
+public class Palindrome {
     public static void main(String[] args) {
         String s="AabbbCbCA";
-        int count=new PhraseString().phraseString(s);
+        int count=new Palindrome().phraseString(s);
         System.out.println(count);
     }
 
