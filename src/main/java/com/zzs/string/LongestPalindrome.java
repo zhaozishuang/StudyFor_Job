@@ -18,12 +18,14 @@ public class LongestPalindrome {
     public static void main(String[] args) {
         String s01="babad";
         String s02="cbbd";
+        String s03="abcde";
         System.out.println(new LongestPalindrome().longestPalindrome(s01));
         System.out.println(new LongestPalindrome().longestPalindrome(s02));
+        System.out.println(new LongestPalindrome().longestPalindrome(s03));
 
     }
 
-    private int index, len;
+    private int index=0, len=0;
     public String longestPalindrome(String s) {
         if (s.length() < 2)
             return s;
